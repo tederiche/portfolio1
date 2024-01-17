@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4d4b53;
+}
+.titulo{
+    position: relative;
+    left: 40%;
+    width: 50%;
+    color: #d8d8d8;
+}
+.formulario{
+    width: 20vw;
+    height: 50vh;
+    background-color: rgb(212, 212, 212);
+    position: relative;
+    left: 41vw;
+    border-radius: 5px;
+    top: 15vh;
+}
+
+.labForm{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.inputCID{
+    height: 15px;
+    left: 5%;
+    position: relative;
+    top: 20%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #000000;
+    outline: none;
+}
+.btnCID{
+    position:relative;
+    top: 40%;
+    left: 18%;
+    width: 200px;
+    height: 50px;
+    background-color: #54853d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.tltForm{
+    position: relative;
+    left: 10%;
+    top: 7%;
+    color: rgb(76, 38, 124);
+}
+
+.btnCID:hover{
+
+    background-color: white;
+    color: #54853d;
+    transition: 0.5s;
+}
+.CID10{
+    width: 200px;
+}
+.CIDTIPO{
+    width: 182px;
+}
+.nomedoArquivo{
+    width: 115px;
+}
